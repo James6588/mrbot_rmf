@@ -1,0 +1,10 @@
+<?xml version='1.0' ?>
+<launch>
+
+  <!-- Start FF Clients for 2 baristas -->
+  <include file="$(find-pkg-share starbots_rmf)/launch/multi_free_fleet_client.launch.xml"/>
+
+  <!-- Start FF Servers for 2 baristas -->
+  <include file="$(find-pkg-share starbots_rmf)/launch/free_fleet_server.launch.xml"/>
+
+</launch>

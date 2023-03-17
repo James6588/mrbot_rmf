@@ -1,0 +1,26 @@
+{ 
+  "world_name" : "Starbots",
+  "valid_task" : ["Loop", "Clean"],
+  "task": {
+    "Delivery": {},
+    "Loop": {
+      "places": [
+        "barista_1_charging",
+        "barista_2_charging",
+        "table_1",
+        "table_2",
+        "table_3",
+        "table_4"
+      ]
+    },
+    "Clean": {
+      "option": [
+        "table_2",
+        "table_3"
+      ]
+    },
+    "Station": {},
+    "Patrol": {},
+    "Charging": {}
+  }
+}

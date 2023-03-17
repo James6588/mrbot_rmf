@@ -1,0 +1,61 @@
+{ 
+  "world_name" : "The Construct Office",
+  "valid_task" : ["Loop", "Clean"],
+  "task": {
+    "Delivery": {},
+    "Loop": {
+      "places": [
+        "rick_charging_station",
+        "morty_charging_station",
+        "table_1_top_right",
+        "table_1_top_right_2",
+        "table_1_bottom_right_2",
+        "table_1_bottom_right",
+        "table_1_bottom",
+        "table_1_bottom_left",
+        "table_1_bottom_left_2",
+        "table_1_top_left_2",
+        "table_1_top_left",
+        "table_2_bottom",
+        "table_2_top",
+        "table_3",
+        "table_4",
+        "kitchen_sofa",
+        "kitchen_table",
+        "fridge",
+        "kitchen",
+        "hallway",
+        "rb1_charging_station",
+        "rb1_shipping_position",
+        "rb1_loading_position",
+        "teacher_table",
+        "student_table_1",
+        "student_table_2",
+        "student_table_3",
+        "student_table_4",
+        "turtlebot_lab",
+        "rodrigos_desk",
+        "back_office_1",
+        "back_office_2",
+        "back_office_3"
+      ]
+    },
+    "Clean": {
+      "option": [
+        "table_1_top_right",
+        "table_2_top",
+        "table_3",
+        "table_4",
+        "teacher_table",
+        "student_table_1",
+        "student_table_2",
+        "student_table_3",
+        "student_table_4",
+        "rodrigos_desk"
+      ]
+    },
+    "Station": {},
+    "Patrol": {},
+    "Charging": {}
+  }
+}
