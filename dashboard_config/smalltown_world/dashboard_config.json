@@ -1,22 +1,23 @@
 { 
-  "world_name" : "Starbots",
+  "world_name" : "smalltown",
   "valid_task" : ["Loop", "Clean"],
   "task": {
     "Delivery": {},
     "Loop": {
       "places": [
-        "barista_1_charging",
-        "barista_2_charging",
-        "table_1",
-        "table_2",
-        "table_3",
-        "table_4"
+        "house1",
+        "house2",
+        "house3",
+        "playground",
+        "postoffice"
       ]
     },
     "Clean": {
       "option": [
-        "table_2",
-        "table_3"
+        "p12",
+        "p22",
+        "p32",
+        "p42"
       ]
     },
     "Station": {},

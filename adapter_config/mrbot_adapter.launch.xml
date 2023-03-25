@@ -2,11 +2,11 @@
 
 <launch>
 
-  <arg name="fleet_name" default="barista" description="Name of this fleet of barista robots"/>
+  <arg name="fleet_name" default="mrbot_fleet" description="Name of this fleet of barista robots"/>
   <!-- set to false if using real robots -->
-  <arg name="use_sim_time" default="false" description="Use the /clock topic for time to sync with simulation"/>
+  <arg name="use_sim_time" default="true" description="Use the /clock topic for time to sync with simulation"/>
   <arg name="nav_graph_file" description="Nav graph required by fleet adapter"/>
-  <arg name="finishing_request" default="nothing"
+  <arg name="finishing_request" default="park"
        description="What the robot should do once it finishes its tasks: [charge, park, nothing]"/>
 
   <group>
@@ -28,7 +28,7 @@
       <arg name="angular_acceleration" value="3.2"/>
 
       <!-- The radius of the circular footprint of this fleet's vehicles -->
-      <arg name="footprint_radius" value="0.15"/>
+      <arg name="footprint_radius" value="0.5"/>
       <!-- Other robots are not allowed within this radius --> 
       <arg name="vicinity_radius" value="0.5"/>
 

@@ -3,13 +3,13 @@
 <launch>
   <arg name="failover_mode" default="false"/>
   <!-- set to false if using real robots -->
-  <arg name="use_sim_time" default="false"/> 
+  <arg name="use_sim_time" default="true"/> 
 
-  <!-- Common launch -->
-  <include file="$(find-pkg-share starbots_rmf)/launch/barista_rmf_schedule.launch.xml">
+  <!-- RMF launch -->
+  <include file="$(find-pkg-share mrbot_rmf)/launch/mrbot_rmf_schedule.launch.xml">
     <arg name="use_sim_time" value="$(var use_sim_time)"/>
     <arg name="failover_mode" value="$(var failover_mode)"/>
-    <arg name="map_name" value="test1" />
+    <arg name="map_name" value="smalltown_world" />
   </include>
 
 </launch>
